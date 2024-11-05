@@ -1,7 +1,8 @@
 name: Monthly Finance Report
 
+# Allows manual triggering of the workflow
 on:
-  workflow_dispatch:      # Enables manual triggering
+  workflow_dispatch:
     inputs:
       month:
         description: "Month to generate report for (1-12)"
